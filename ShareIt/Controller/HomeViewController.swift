@@ -49,12 +49,13 @@ class HomeViewController: UIViewController {
         
     }
     @objc func sendBtnClicked(){
-        let vc = (storyboard?.instantiateViewController(withIdentifier: "TabBarController")) as? UITabBarController
-        present(vc!, animated: true, completion: nil)
-//        self.navigationController?.pushViewController(vc, animated: true)
+        let vc = (storyboard?.instantiateViewController(withIdentifier: "TabBarController")) as! UITabBarController
+        //self.navigationController?.pushViewController(vc, animated: true)
+        present(vc, animated: true, completion: nil)
         
     }
     @objc func receiveBtnClicked(){
+        print("Receive clicked")
         let vc = storyboard?.instantiateViewController(withIdentifier: "PermissionRequiredViewController") as! PermissionRequiredViewController
         self.navigationController?.pushViewController(vc, animated: true)
     }
@@ -70,11 +71,11 @@ class HomeViewController: UIViewController {
         sendView.layer.cornerRadius = 20
         receiveView.layer.cornerRadius = 20
         historyLbl.layer.masksToBounds = true
-        historyLbl.layer.cornerRadius = 20
+        historyLbl.layer.cornerRadius = 10
         connectToPcLbl.layer.masksToBounds = true
-        connectToPcLbl.layer.cornerRadius = 20
+        connectToPcLbl.layer.cornerRadius = 10
         inviteLbl.layer.masksToBounds = true
-        inviteLbl.layer.cornerRadius = 20
+        inviteLbl.layer.cornerRadius = 10
     }
     
     

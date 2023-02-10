@@ -474,7 +474,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = NBZ2KJHL8V;
+				DEVELOPMENT_TEAM = JQ3TBQV3X3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ShareIt/Info.plist;
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Your Location Access to App exprinces";
@@ -504,7 +504,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2UFP8A725K;
+				DEVELOPMENT_TEAM = JQ3TBQV3X3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ShareIt/Info.plist;
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Your Location Access to App exprinces";
