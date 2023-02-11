@@ -23,19 +23,11 @@ class PermissionRequiredViewController: UIViewController {
         openBluetoothView.layer.cornerRadius = 15
         openLocationBtn.layer.cornerRadius = 15
         openBluetoothBtn.layer.cornerRadius = 15
-
     }
-    
     @IBAction func openLocationServiceBtnClicked(_sender:UIButton){
         self.share.navigateToDeviceSettingPage(url: "App-prefs:root=STORE&path=App%20Downloads")
-        
     }
-    
     @IBAction func openBliutoothBtnClicked(_sender:UIButton){
         self.share.navigateToDeviceSettingPage(url: "App-prefs:root=Bluetooth")
-        
     }
-
-   
-
 }

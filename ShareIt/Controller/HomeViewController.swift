@@ -4,33 +4,34 @@
 //
 //  Created by Reapmind on 31/01/23.
 //
-
 import Foundation
 import UIKit
 import Lottie
 
 class HomeViewController: UIViewController {
     @IBOutlet weak var sendView:UIView!
+    @IBOutlet weak var sendStackView:UIStackView!
+    @IBOutlet weak var receivStackView:UIStackView!
     @IBOutlet weak var receiveView:UIView!
     @IBOutlet weak var historyLbl:UILabel!
     @IBOutlet weak var connectToPcLbl:UILabel!
     @IBOutlet weak var inviteLbl:UILabel!
     @IBOutlet weak var settingBtn:UIButton!
     @IBOutlet weak var AnimationView:UIView!
+    
     private var animationView: LottieAnimationView?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       
         setAllCornerRadius()
-        let sendViewtapped = UITapGestureRecognizer.init(target: self, action: #selector(sendBtnClicked))
-        sendView.addGestureRecognizer(sendViewtapped)
+        let sendViewtapped = UITapGestureRecognizer(target: self, action: #selector(sendBtnClicked))
+        sendStackView.superview?.addGestureRecognizer(sendViewtapped)
         let inviteBtntapped = UITapGestureRecognizer.init(target: self, action: #selector(inviteBtnClicked))
         inviteLbl.isUserInteractionEnabled = true
         inviteLbl.addGestureRecognizer(inviteBtntapped)
         settingBtn.addTarget(self, action: #selector(settingBtnClicked), for: .touchUpInside)
         let receiveViewTapped = UITapGestureRecognizer.init(target: self, action: #selector(receiveBtnClicked))
-        receiveView.addGestureRecognizer(receiveViewTapped)
+        receivStackView.superview?.addGestureRecognizer(receiveViewTapped)
         PlayAnimation()
            
     }
@@ -39,20 +40,20 @@ class HomeViewController: UIViewController {
         animationView!.play()
     }
     @objc func inviteBtnClicked(){
-        print("tapped")
+        print("InviteBtnTapped")
         let vc = storyboard?.instantiateViewController(withIdentifier: "InviteViewController") as! InviteViewController
         self.navigationController?.pushViewController(vc, animated: true)
     }
     @objc func settingBtnClicked(){
+        print("SettingBtnClicked")
         let vc = storyboard?.instantiateViewController(withIdentifier: "SettingsViewController") as! SettingsViewController
         self.navigationController?.pushViewController(vc, animated: true)
-        
     }
     @objc func sendBtnClicked(){
+        print("SendBtnClicked")
         let vc = (storyboard?.instantiateViewController(withIdentifier: "TabBarController")) as! UITabBarController
         //self.navigationController?.pushViewController(vc, animated: true)
         present(vc, animated: true, completion: nil)
-        
     }
     @objc func receiveBtnClicked(){
         print("Receive clicked")

@@ -44,7 +44,7 @@ class OnBoardingViewController: UIViewController {
             vc.modalPresentationStyle = .fullScreen
             vc.modalTransitionStyle = .flipHorizontal
                 //   self.navigationController?.pushViewController(vc, animated: true)
-            present(vc, animated: true, completion: nil)
+            self.present(vc, animated: true, completion: nil)
 
         }else{
             currentPage += 1

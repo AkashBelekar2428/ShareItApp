@@ -92,16 +92,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="cMV-BC-BLG">
-                                <rect key="frame" x="16" y="59" width="382" height="31"/>
+                                <rect key="frame" x="16" y="59" width="382" height="38.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SHARE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2fe-2y-Zfr">
-                                        <rect key="frame" x="0.0" y="0.0" width="78.5" height="31"/>
-                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="104.5" height="38.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="32"/>
                                         <color key="textColor" red="0.31228768829999998" green="0.51965111490000004" blue="0.53547328709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E4N-VC-zGV">
-                                        <rect key="frame" x="338" y="0.0" width="44" height="31"/>
+                                        <rect key="frame" x="338" y="0.0" width="44" height="38.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" image="book.circle" catalog="system"/>
                                     </button>
@@ -116,18 +116,18 @@
                                             <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2v4-YS-Enm" userLabel="SendView">
                                                 <rect key="frame" x="0.0" y="0.0" width="183.5" height="100"/>
                                                 <subviews>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="amE-uZ-Bnq">
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="amE-uZ-Bnq">
                                                         <rect key="frame" x="0.0" y="0.0" width="183.5" height="100"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GwR-8l-YYc">
-                                                                <rect key="frame" x="0.0" y="0.0" width="183.5" height="50"/>
+                                                                <rect key="frame" x="70.5" y="0.0" width="42.5" height="50"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain" image="square.and.arrow.up.fill" catalog="system">
                                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </buttonConfiguration>
                                                             </button>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Send" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vah-Pe-Kkj">
-                                                                <rect key="frame" x="0.0" y="50" width="183.5" height="50"/>
+                                                                <rect key="frame" x="67.5" y="50" width="48.5" height="50"/>
                                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
@@ -151,18 +151,18 @@
                                             <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SRm-FA-gHO" userLabel="ReceiveView">
                                                 <rect key="frame" x="198.5" y="0.0" width="183.5" height="100"/>
                                                 <subviews>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="cpA-VO-sth">
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="cpA-VO-sth">
                                                         <rect key="frame" x="0.0" y="0.0" width="183.5" height="100"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="evK-IA-adY">
-                                                                <rect key="frame" x="0.0" y="0.0" width="183.5" height="50"/>
+                                                                <rect key="frame" x="70.5" y="0.0" width="42.5" height="50"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain" image="square.and.arrow.down.fill" catalog="system">
                                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </buttonConfiguration>
                                                             </button>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Receive" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8hm-M7-gZI">
-                                                                <rect key="frame" x="0.0" y="50" width="183.5" height="50"/>
+                                                                <rect key="frame" x="55" y="50" width="74" height="50"/>
                                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
@@ -217,7 +217,7 @@
                                 </subviews>
                             </stackView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X10-80-T5a">
-                                <rect key="frame" x="16" y="105" width="382" height="532"/>
+                                <rect key="frame" x="16" y="112.5" width="382" height="524.5"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                         </subviews>
@@ -242,7 +242,9 @@
                         <outlet property="connectToPcLbl" destination="Uz4-d2-thh" id="m5m-NH-Wtd"/>
                         <outlet property="historyLbl" destination="Y1t-jc-FR3" id="BQ6-C9-3JT"/>
                         <outlet property="inviteLbl" destination="Aih-h8-js6" id="jdO-rm-98G"/>
+                        <outlet property="receivStackView" destination="cpA-VO-sth" id="rRH-I8-stg"/>
                         <outlet property="receiveView" destination="SRm-FA-gHO" id="346-MV-1Nm"/>
+                        <outlet property="sendStackView" destination="amE-uZ-Bnq" id="icf-Ke-Dch"/>
                         <outlet property="sendView" destination="2v4-YS-Enm" id="goJ-0z-LAP"/>
                         <outlet property="settingBtn" destination="E4N-VC-zGV" id="cZW-pC-Gbr"/>
                     </connections>

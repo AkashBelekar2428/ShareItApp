@@ -12,6 +12,7 @@
 		9D2AE9ED298D288300DD3875 /* PermissionRequiredViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2AE9EC298D288300DD3875 /* PermissionRequiredViewController.swift */; };
 		9D306C3E298BC70500C4070F /* ShareIt.json in Resources */ = {isa = PBXBuildFile; fileRef = 9D306C3D298BC70400C4070F /* ShareIt.json */; };
 		9D3BAAB5298A2C26003E6A4A /* ToastMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3BAAB4298A2C26003E6A4A /* ToastMessageViewController.swift */; };
+		9D5D191B2996586D00ADBACF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D5D191A2996586C00ADBACF /* GoogleService-Info.plist */; };
 		9D627C102993766B0012D5F6 /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D627C0F2993766B0012D5F6 /* UIView + Extension.swift */; };
 		9D627C1229937A110012D5F6 /* OnBoardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D627C1129937A100012D5F6 /* OnBoardingModel.swift */; };
 		9DB2B87F29923EFD00726CE0 /* OnBoardingCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DB2B87E29923EFD00726CE0 /* OnBoardingCVC.xib */; };
@@ -43,6 +44,7 @@
 		9D2AE9EC298D288300DD3875 /* PermissionRequiredViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionRequiredViewController.swift; sourceTree = "<group>"; };
 		9D306C3D298BC70400C4070F /* ShareIt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ShareIt.json; sourceTree = "<group>"; };
 		9D3BAAB4298A2C26003E6A4A /* ToastMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastMessageViewController.swift; sourceTree = "<group>"; };
+		9D5D191A2996586C00ADBACF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9D627C0F2993766B0012D5F6 /* UIView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extension.swift"; sourceTree = "<group>"; };
 		9D627C1129937A100012D5F6 /* OnBoardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingModel.swift; sourceTree = "<group>"; };
 		9DB2B87E29923EFD00726CE0 /* OnBoardingCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnBoardingCVC.xib; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				9DF419142988E90D0077CA05 /* Controller */,
 				9DF419092988D4F60077CA05 /* Assets.xcassets */,
 				9DF4190E2988D4F60077CA05 /* Info.plist */,
+				9D5D191A2996586C00ADBACF /* GoogleService-Info.plist */,
 				9DB2B887299241A500726CE0 /* Lottie1.json */,
 				9DB2B886299241A500726CE0 /* Lottie2.json */,
 				9DB2B885299241A500726CE0 /* Lottie3.json */,
@@ -254,6 +257,7 @@
 				9DB2B87F29923EFD00726CE0 /* OnBoardingCVC.xib in Resources */,
 				9DF4191F2988F99D0077CA05 /* InternetRequiredTVC.xib in Resources */,
 				9DF4190A2988D4F60077CA05 /* Assets.xcassets in Resources */,
+				9D5D191B2996586D00ADBACF /* GoogleService-Info.plist in Resources */,
 				9DB2B88A299241A500726CE0 /* Lottie1.json in Resources */,
 				9DF419082988D4F20077CA05 /* Main.storyboard in Resources */,
 				9DF4191D2988F8310077CA05 /* NoInternetNeddedTVC.xib in Resources */,
