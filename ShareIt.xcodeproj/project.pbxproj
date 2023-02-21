@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		9D0055EF29893156009DE2B4 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0055EE29893155009DE2B4 /* SettingsViewController.swift */; };
 		9D0055F129893C0D009DE2B4 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0055F029893C0D009DE2B4 /* ShareViewController.swift */; };
+		9D1BC9E8299B75AB0089D2A3 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1BC9E7299B75AB0089D2A3 /* HistoryViewController.swift */; };
+		9D1BC9EA299B75D70089D2A3 /* AppsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1BC9E9299B75D70089D2A3 /* AppsViewController.swift */; };
+		9D1BC9EC299B75EC0089D2A3 /* FilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1BC9EB299B75EC0089D2A3 /* FilesViewController.swift */; };
+		9D1BC9EE299B760C0089D2A3 /* VideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1BC9ED299B760C0089D2A3 /* VideosViewController.swift */; };
+		9D1BC9F0299B76260089D2A3 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1BC9EF299B76260089D2A3 /* PhotosViewController.swift */; };
+		9D1BC9F2299B763C0089D2A3 /* SongsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1BC9F1299B763C0089D2A3 /* SongsViewController.swift */; };
+		9D1BC9F4299B76620089D2A3 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1BC9F3299B76620089D2A3 /* ContactsViewController.swift */; };
 		9D2AE9ED298D288300DD3875 /* PermissionRequiredViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2AE9EC298D288300DD3875 /* PermissionRequiredViewController.swift */; };
 		9D306C3E298BC70500C4070F /* ShareIt.json in Resources */ = {isa = PBXBuildFile; fileRef = 9D306C3D298BC70400C4070F /* ShareIt.json */; };
 		9D3BAAB5298A2C26003E6A4A /* ToastMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3BAAB4298A2C26003E6A4A /* ToastMessageViewController.swift */; };
@@ -41,6 +48,13 @@
 		840BC2BDD45A28BAD5C59B44 /* Pods-ShareIt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareIt.debug.xcconfig"; path = "Target Support Files/Pods-ShareIt/Pods-ShareIt.debug.xcconfig"; sourceTree = "<group>"; };
 		9D0055EE29893155009DE2B4 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		9D0055F029893C0D009DE2B4 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		9D1BC9E7299B75AB0089D2A3 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		9D1BC9E9299B75D70089D2A3 /* AppsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsViewController.swift; sourceTree = "<group>"; };
+		9D1BC9EB299B75EC0089D2A3 /* FilesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesViewController.swift; sourceTree = "<group>"; };
+		9D1BC9ED299B760C0089D2A3 /* VideosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosViewController.swift; sourceTree = "<group>"; };
+		9D1BC9EF299B76260089D2A3 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		9D1BC9F1299B763C0089D2A3 /* SongsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsViewController.swift; sourceTree = "<group>"; };
+		9D1BC9F3299B76620089D2A3 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
 		9D2AE9EC298D288300DD3875 /* PermissionRequiredViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionRequiredViewController.swift; sourceTree = "<group>"; };
 		9D306C3D298BC70400C4070F /* ShareIt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ShareIt.json; sourceTree = "<group>"; };
 		9D3BAAB4298A2C26003E6A4A /* ToastMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastMessageViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +105,20 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		9D1BC9F5299B76D50089D2A3 /* TabBars */ = {
+			isa = PBXGroup;
+			children = (
+				9D1BC9E7299B75AB0089D2A3 /* HistoryViewController.swift */,
+				9D1BC9E9299B75D70089D2A3 /* AppsViewController.swift */,
+				9D1BC9EB299B75EC0089D2A3 /* FilesViewController.swift */,
+				9D1BC9ED299B760C0089D2A3 /* VideosViewController.swift */,
+				9D1BC9EF299B76260089D2A3 /* PhotosViewController.swift */,
+				9D1BC9F1299B763C0089D2A3 /* SongsViewController.swift */,
+				9D1BC9F3299B76620089D2A3 /* ContactsViewController.swift */,
+			);
+			path = TabBars;
+			sourceTree = "<group>";
+		};
 		9D627C0E299376220012D5F6 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,13 +151,9 @@
 				9DF419162988E9570077CA05 /* Model */,
 				9DF419152988E92D0077CA05 /* View */,
 				9DF419142988E90D0077CA05 /* Controller */,
-				9DF419092988D4F60077CA05 /* Assets.xcassets */,
 				9DF4190E2988D4F60077CA05 /* Info.plist */,
 				9D5D191A2996586C00ADBACF /* GoogleService-Info.plist */,
-				9DB2B887299241A500726CE0 /* Lottie1.json */,
-				9DB2B886299241A500726CE0 /* Lottie2.json */,
-				9DB2B885299241A500726CE0 /* Lottie3.json */,
-				9D306C3D298BC70400C4070F /* ShareIt.json */,
+				9DF419092988D4F60077CA05 /* Assets.xcassets */,
 			);
 			path = ShareIt;
 			sourceTree = "<group>";
@@ -146,6 +170,7 @@
 				9D0055F029893C0D009DE2B4 /* ShareViewController.swift */,
 				9D2AE9EC298D288300DD3875 /* PermissionRequiredViewController.swift */,
 				9DB2B8832992404A00726CE0 /* OnBoardingViewController.swift */,
+				9D1BC9F5299B76D50089D2A3 /* TabBars */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -156,6 +181,10 @@
 				9DF4191B2988F8080077CA05 /* Xib */,
 				9DF419062988D4F20077CA05 /* Main.storyboard */,
 				9DF4190B2988D4F60077CA05 /* LaunchScreen.storyboard */,
+				9DB2B887299241A500726CE0 /* Lottie1.json */,
+				9DB2B886299241A500726CE0 /* Lottie2.json */,
+				9DB2B885299241A500726CE0 /* Lottie3.json */,
+				9D306C3D298BC70400C4070F /* ShareIt.json */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -315,19 +344,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DF419052988D4F20077CA05 /* ViewController.swift in Sources */,
+				9D1BC9F4299B76620089D2A3 /* ContactsViewController.swift in Sources */,
 				9DF419012988D4F20077CA05 /* AppDelegate.swift in Sources */,
 				9DF419032988D4F20077CA05 /* SceneDelegate.swift in Sources */,
 				9DB2B88129923F7A00726CE0 /* OnBoardingCVC.swift in Sources */,
 				9D627C1229937A110012D5F6 /* OnBoardingModel.swift in Sources */,
 				9D627C102993766B0012D5F6 /* UIView + Extension.swift in Sources */,
+				9D1BC9EA299B75D70089D2A3 /* AppsViewController.swift in Sources */,
+				9D1BC9EE299B760C0089D2A3 /* VideosViewController.swift in Sources */,
 				9DF419212988FA370077CA05 /* NoInternetNeddedTVC.swift in Sources */,
+				9D1BC9F0299B76260089D2A3 /* PhotosViewController.swift in Sources */,
+				9D1BC9E8299B75AB0089D2A3 /* HistoryViewController.swift in Sources */,
 				9DF419182988EA3E0077CA05 /* HomeViewController.swift in Sources */,
 				9DB2B8842992404A00726CE0 /* OnBoardingViewController.swift in Sources */,
+				9D1BC9F2299B763C0089D2A3 /* SongsViewController.swift in Sources */,
 				9DF419232988FB2D0077CA05 /* InternetRequiredTVC.swift in Sources */,
 				9D3BAAB5298A2C26003E6A4A /* ToastMessageViewController.swift in Sources */,
 				9D0055F129893C0D009DE2B4 /* ShareViewController.swift in Sources */,
 				9DF4191A2988F7880077CA05 /* InviteViewController.swift in Sources */,
 				9D2AE9ED298D288300DD3875 /* PermissionRequiredViewController.swift in Sources */,
+				9D1BC9EC299B75EC0089D2A3 /* FilesViewController.swift in Sources */,
 				9D0055EF29893156009DE2B4 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

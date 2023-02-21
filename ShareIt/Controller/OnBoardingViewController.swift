@@ -41,10 +41,10 @@ class OnBoardingViewController: UIViewController {
         if currentPage == slide.count - 1{
             print("Go to next Page")
             let vc = storyboard?.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
-            vc.modalPresentationStyle = .fullScreen
-            vc.modalTransitionStyle = .flipHorizontal
-                //   self.navigationController?.pushViewController(vc, animated: true)
-            self.present(vc, animated: true, completion: nil)
+//            vc.modalPresentationStyle = .fullScreen
+//            vc.modalTransitionStyle = .flipHorizontal
+                   self.navigationController?.pushViewController(vc, animated: true)
+//            self.present(vc, animated: true, completion: nil)
 
         }else{
             currentPage += 1

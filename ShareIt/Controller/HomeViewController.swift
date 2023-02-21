@@ -30,14 +30,18 @@ class HomeViewController: UIViewController {
         inviteLbl.isUserInteractionEnabled = true
         inviteLbl.addGestureRecognizer(inviteBtntapped)
         settingBtn.addTarget(self, action: #selector(settingBtnClicked), for: .touchUpInside)
-        let receiveViewTapped = UITapGestureRecognizer.init(target: self, action: #selector(receiveBtnClicked))
+        let receiveViewTapped = UITapGestureRecognizer(target: self, action: #selector(receiveBtnClicked))
         receivStackView.superview?.addGestureRecognizer(receiveViewTapped)
         PlayAnimation()
-           
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        navigationController?.isNavigationBarHidden = true
         animationView!.play()
+    }
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        navigationController?.isNavigationBarHidden = false
     }
     @objc func inviteBtnClicked(){
         print("InviteBtnTapped")
